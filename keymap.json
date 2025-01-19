@@ -10,25 +10,25 @@
     "context": "Workspace",
     "bindings": {
       "cmd-b": "editor::GoToDefinition",
-      "cmd-r": "editor::FindAllReferences",
+      "ctrl-u": "editor::FindAllReferences",
       "ctrl-m": "editor::MoveToEnclosingBracket",
       "cmd-1": "project_panel::ToggleFocus",
-      "cmd-n": "workspace::NewTerminal",
-      "cmd-t": "terminal_panel::ToggleFocus"
+      "cmd-2": "terminal_panel::ToggleFocus",
+      "cmd-t": "workspace::NewTerminal"
     }
   },
   {
     "context": "Editor",
     "bindings": {
-      "ctrl-r": "editor::Rename",
+      "cmd-r": "editor::Rename",
       "cmd-1": "project_panel::ToggleFocus"
     }
   },
   {
     "context": "Terminal",
     "bindings": {
-      "cmd-t": "workspace::ToggleBottomDock",
-      "cmd-n": "workspace::NewTerminal"
+      "cmd-2": "workspace::ToggleBottomDock",
+      "cmd-t": "workspace::NewTerminal"
     }
   },
   {
