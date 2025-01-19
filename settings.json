@@ -8,6 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "theme": "Xcode Classic Dark",
+  "ui_font_family": "Hack Nerd Font",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
