@@ -1,4 +1,17 @@
 theme="rose_pine_moon"
 
+[editor]
+bufferline="multiple"
+cursorline=true
+
 [editor.file-picker]
 hidden = false
+
+[editor.cursor-shape]
+insert="bar"
+
+[editor.lsp]
+display-messages=true
+
+[editor.statusline]
+left=["mode", "spinner", "version-control", "file-name"]
