@@ -7,7 +7,7 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Xcode Classic Dark",
+  "theme": "GitHub Dark Default",
   "ui_font_family": "Hack Nerd Font",
   "telemetry": {
     "diagnostics": false,
