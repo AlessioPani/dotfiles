@@ -23,3 +23,5 @@ setopt hist_ignore_dups
 setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
+
+export TERM=alacritty
