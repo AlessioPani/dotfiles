@@ -8,12 +8,16 @@
 // from the command palette or from `Zed` application menu.
 {
   "theme": "GitHub Dark Default",
-  "ui_font_family": "Hack Nerd Font",
+  "ui_font_family": "MesloLGM Nerd Font Mono",
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
   "ui_font_size": 15,
-  "buffer_font_size": 15,
-  "autosave": "on_focus_change"
+  "buffer_font_size": 14.0,
+  "autosave": "on_focus_change",
+  "terminal": {
+    "dock": "bottom",
+    "font_family": "MesloLGM Nerd Font Mono"
+  }
 }
