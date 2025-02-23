@@ -1,4 +1,9 @@
-theme="lugh_dark"
+theme="adwaita-dark"
+# theme="ao"
+# theme="everforest_dark"
+# theme="fleet_dark"
+# theme="jetbrains_dark"
+# theme="zed_onedark"
 
 [editor]
 true-color=true
