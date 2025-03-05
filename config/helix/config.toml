@@ -1,9 +1,10 @@
-theme="adwaita-dark"
+# theme="adwaita-dark"
 # theme="ao"
-# theme="everforest_dark"
+theme="everforest_dark"
 # theme="fleet_dark"
 # theme="jetbrains_dark"
 # theme="zed_onedark"
+# theme="carbon"
 
 [editor]
 true-color=true
@@ -11,6 +12,7 @@ color-modes=true
 bufferline="multiple"
 cursorline=true
 end-of-line-diagnostics="hint"
+line-number="relative"
 
 [editor.file-picker]
 hidden = false
@@ -24,7 +26,13 @@ select="underline"
 display-messages=true
 
 [editor.statusline]
-left=["mode", "spinner", "version-control", "file-name"]
+left = ["mode", "file-name", "file-modification-indicator", "spacer", "diagnostics", "spinner", "file-type"]
+right = ["selections", "register", "position", "file-encoding"]
+center = ["version-control"]
+separator = "|"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
 
 [editor.indent-guides]
 render = true
