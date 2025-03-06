@@ -1,3 +1,4 @@
+### STARSHIP INIT
 eval "$(starship init zsh)"
 
 ### ALIAS CONFIG
@@ -18,5 +19,5 @@ setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
-### EXPORT TO PATH
-export TERM=alacritty
+### STARTUP
+# neofetch
