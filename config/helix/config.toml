@@ -1,11 +1,11 @@
 # theme="adwaita-dark"
-# theme="everforest_dark"
+theme="everforest_dark"
 # theme="fleet_dark"
 # theme="jetbrains_dark"
 # theme="zed_onedark"
 # theme="onedark"
 # theme="carbon"
-theme="lugh"
+# theme="lugh"
 
 [editor]
 true-color=true
@@ -13,7 +13,6 @@ color-modes=true
 bufferline="multiple"
 cursorline=true
 end-of-line-diagnostics="hint"
-line-number="relative"
 
 [editor.file-picker]
 hidden = false
