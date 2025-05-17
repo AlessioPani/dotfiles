@@ -1,7 +1,12 @@
 # Font
-font-family="MesloLGS Nerd Font Mono"
-font-size=15
+font-family="MesloLGS Nerd Font"
+font-size=14
 
 # Theme
-# theme = Everforest Dark - Hard
 theme = NvimDark
+
+# Extra
+# background-opacity = 0.7
+# background-blur-radius = 20 
+mouse-hide-while-typing = true
+window-decoration = true
