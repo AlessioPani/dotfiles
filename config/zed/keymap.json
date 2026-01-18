@@ -14,27 +14,34 @@
       "ctrl-m": "editor::MoveToEnclosingBracket",
       "cmd-1": "project_panel::ToggleFocus",
       "cmd-2": "terminal_panel::ToggleFocus",
-      "cmd-t": "workspace::NewTerminal"
-    }
+      "cmd-3": "git_panel::ToggleFocus",
+      "cmd-t": "workspace::NewTerminal",
+    },
   },
   {
     "context": "Editor",
     "bindings": {
       "cmd-r": "editor::Rename",
-      "cmd-1": "project_panel::ToggleFocus"
-    }
+      "cmd-1": "project_panel::ToggleFocus",
+    },
   },
   {
     "context": "Terminal",
     "bindings": {
       "cmd-2": "workspace::ToggleBottomDock",
-      "cmd-t": "workspace::NewTerminal"
-    }
+      "cmd-t": "workspace::NewTerminal",
+    },
   },
   {
     "context": "ProjectPanel",
     "bindings": {
-      "cmd-1": "project_panel::ToggleFocus"
-    }
-  }
+      "cmd-1": "project_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "GitPanel",
+    "bindings": {
+      "cmd-3": "editor::ToggleFocus",
+    },
+  },
 ]
