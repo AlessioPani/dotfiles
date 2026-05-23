@@ -13,6 +13,7 @@ window-decoration = true
 
 # Keybinding
 # Linux/Windows
+# keybind = ctrl+shift+e=equalize_splits
 # keybind = ctrl+shift+w=close_surface
 # keybind = chain=equalize_splits
 # keybind = ctrl+w=close_tab:this
@@ -27,6 +28,7 @@ window-decoration = true
 # keybind = ctrl+down=goto_split:bottom
 
 # Mac
+keybind = cmd+shift+e=equalize_splits
 keybind = cmd+shift+w=close_surface
 keybind = chain=equalize_splits
 keybind = cmd+w=close_tab:this
