@@ -2,8 +2,9 @@
 eval "$(starship init zsh)"
 
 ### ALIAS CONFIG
-alias code="open -a Visual\ Studio\ Code.app"
-alias ls="eza --icons=always"
+alias code="open -a VSCodium.app"
+alias ls="eza --icons"
+alias work="cd ~/Documents/Workspace"
 
 ### EXTRA APPS
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -18,6 +19,3 @@ setopt hist_ignore_dups
 setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
-
-### STARTUP
-# neofetch
